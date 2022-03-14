@@ -1,0 +1,32 @@
+$azuloscuro: #0a2463;
+$celeste: #3e92cc;
+$turquesa: #42d9c8;
+$blanco: #fffaff;
+
+// ------------------ ESTILOS GENERALES / BODY ********************
+
+@import 'generales';
+
+// ------------------ MENÚ ********************
+
+@import 'menu';
+
+// ------------------ SOBRE MI ********************
+
+@import 'sobremi';
+
+// ------------------ TRABAJOS ********************
+
+@import 'trabajos';
+
+// ------------------ CONOCIMIENTOS ********************
+
+@import 'conocimientos';
+
+// ------------------ CONTACTO / FOOTER ********************
+
+@import 'contacto';
+
+// ------------------ DERECHOS RESERVADOS / FOOTER ********************
+
+@import 'footer';

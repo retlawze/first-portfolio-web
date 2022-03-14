@@ -1,0 +1,33 @@
+header .contenedor nav {
+	text-align: center;
+	ul {
+		list-style: none;
+		display: inline-block;
+		position: relative;
+		a {
+			display: inline-block;
+			color: $blanco;
+			margin: 0px 25px;
+			text-decoration: none;
+			position: relative;
+			font-size: 17px;
+			&::after {
+				content: '';
+				position: absolute;
+				width: 100%;
+				transform: scaleX(0);
+				height: 3px;
+				bottom: -3px;
+				left: 0;
+				// background-color: $celeste;
+				background: linear-gradient(-45deg, $turquesa, $celeste);
+				transform-origin: bottom right;
+				transition: transform 0.25s ease-out;
+			}
+			&:hover::after {
+				transform: scaleX(1);
+				transform-origin: bottom left;
+			}
+		}
+	}
+}
